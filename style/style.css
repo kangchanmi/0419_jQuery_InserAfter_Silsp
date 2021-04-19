@@ -28,6 +28,11 @@ div.page {
 /* div.page */
 
 /* div.vis */
+div.vis {
+    width: 204px;
+    height: 204px;
+    overflow: hidden;
+}
 div.vis img {
     border: 2px solid #000;
 }
@@ -37,7 +42,7 @@ div.vis>div {
 }
 */
 div.vis>div:not(:first-child) {
-    display: none;
+/*    display: none;*/
 /*    visibility: hidden;*/
 }
 /* div.vis */
